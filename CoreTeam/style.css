@@ -1,5 +1,5 @@
 pre {
-    font-family: Title, sans-serif;
+    font-family: Title, serif;
     font-optical-sizing: initial;
     font-stretch: expanded;
     font-style: normal;
@@ -9,16 +9,45 @@ pre {
 }
 
 .coreTeamTitle {
-    width: 100%;
+    font-family: Title, serif;
+    width: 80%;
+    padding-top: 50px;
     background: var(--white-theme);
     color: var(--brown-theme);
-    font-size: 3.5rem;
-    padding: 30px 0px;
-    font-family: Title, sans-serif;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px solid var(--dark-theme);
+    border-left: 5px solid var(--dark-theme);
+    border-right: 5px solid var(--dark-theme);
+}
+
+.coreTeamTitle > p {
+    font-family: Normal, serif;
+    text-align: center;
+    width: 80%;
+    color: var(--dark-theme);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 30px 0;
+}
+
+.coreTeamTitle > span {
+    font-family: Title, serif;
+    background: var(--white-theme);
+    color: var(--blue-theme);
+    padding-top: 60px;
+    width: min(1200px, 100vw);
+    border-top: 5px solid var(--dark-theme);
+    border-left: 5px solid var(--dark-theme);
+    border-right: 5px solid var(--dark-theme);
 }
 
 .mainCoreTeam {
-    color: var(--brown-theme);
+    color: var(--white-theme);
     padding: 40px 0px;
     display: flex;
     flex-direction: column;
@@ -38,10 +67,10 @@ pre {
 .subTitle {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     transform: scale(auto);
-    background: var(--light-brown-theme);
+    background: var(--blue-theme);
     transition: ease 200ms;
 }
 
@@ -94,7 +123,7 @@ pre {
     margin-top: 40px;
     border-width: 10px;
     border-style: solid;
-    border-color: var(--brown-theme) transparent transparent transparent;
+    border-color: var(--white-theme) transparent transparent transparent;
 }
 
 .subTitle.active > .subDescription > span:nth-child(2) {
@@ -117,7 +146,7 @@ pre {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    color: var(--brown-theme);
+    color: var(--blue-theme);
     background: var(--white-theme);
     animation: disappear 200ms ease both;
 }
@@ -138,7 +167,7 @@ pre {
 
 .container > img {
     width: 150px;
-    border: 2px solid var(--brown-theme);
+    border: 2px solid var(--dark-theme);
     border-radius: 50%;
 }
 
@@ -168,6 +197,6 @@ pre {
         margin-top: 20px;
         border-width: 10px;
         border-style: solid;
-        border-color: var(--brown-theme) transparent transparent transparent;
+        border-color: var(--dark-theme) transparent transparent transparent;
     }
 }

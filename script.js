@@ -29,7 +29,7 @@ function scrollFunction() {
     }
 }
 
-const date = "28 Sep, 2025 23:59:59"
+const date = "30 Sep, 2025 23:59:59"
 const countdownDate = new Date(date).getTime();
 const days = document.getElementById("days");
 const hours = document.getElementById("hours");
