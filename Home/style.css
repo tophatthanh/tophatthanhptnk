@@ -55,7 +55,7 @@ pre {
 }
 
 .aboutUs > span, .experience {
-    font-size: 3rem;
+    font-size: min(6vw, 3rem);
     letter-spacing: -1px;
 }
 
