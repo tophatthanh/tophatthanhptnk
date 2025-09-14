@@ -132,7 +132,7 @@ pre {
 }
 
 .communication > p:nth-child(2) {
-    font-family: Normal, sans-serif;
+    font-family: Normal, serif;
     opacity: 80%;
     font-size: 1.5rem;
     padding: 0;    
@@ -148,7 +148,7 @@ pre {
 }
 
 .communication > div > p {
-    font-family: Title, sans-serif;
+    font-family: Title, serif;
     font-size: 2rem;
 }
 
@@ -183,7 +183,7 @@ pre {
 }
 
 .achievementsAndImages > span {
-    font-family: Title, sans-serif;
+    font-family: Title, serif;
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -238,7 +238,7 @@ pre {
 }
 
 .experience > .mainElement > p {
-    font-family: Title, sans-serif;
+    font-family: Title, serif;
     width: 100%;
     margin: 0;
     margin-left: 10%;

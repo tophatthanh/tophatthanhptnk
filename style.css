@@ -74,7 +74,7 @@ span {
 }
 
 .navBar {
-    font-family: NavBar, sans-serif;
+    font-family: NavBar, serif;
     z-index: 2;
     position: fixed;
     top: 0;
