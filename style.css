@@ -189,11 +189,11 @@ span {
 #menu {
     display: none;
     font-weight: bold;
-    font-size: 10vh;
+    font-size: 3vh;
     background: var(--white-theme);
     padding: 1.5%;
     border-radius: 50px;
-    border: 2px solid var(--brown-theme);
+    border: 2px solid var(--dark-theme);
 }
 
 .main {
@@ -231,7 +231,7 @@ span {
 .mainTitle {
     filter: drop-shadow(10px 5px 3px var(--dark-theme));
     font-family: Title;
-    font-size: min(10vw, 10rem);
+    font-size: min(6vw, 10rem);
     letter-spacing: 5px;
     margin-bottom: 15vh;
 }
