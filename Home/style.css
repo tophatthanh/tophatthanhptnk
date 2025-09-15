@@ -245,6 +245,10 @@ pre {
     font-size: 1.1rem;
 }
 
+.followUs > span {
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 1000px) {
     .aboutUs > p {
         padding: 30px 5%;
@@ -289,6 +293,7 @@ pre {
     .achievementsAndImages > .mainElement > .images > img {
         height: 125px;
         width: 125px;
+        object-fit: cover;
     }
 }
 
@@ -305,6 +310,15 @@ pre {
     .fbPost > img {
         width: 70%;
         height: auto;
+    }
+
+    .aboutUs {
+        font-size: 2.5rem;
+    }
+    
+    .aboutUs > p {
+        font-size: 1rem;
+        line-height: 1.6;
     }
 }
 
